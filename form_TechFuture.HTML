@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title> Inscrição TechFuture Summit 2025</title>
+</head>
+
+
+<body>
+    <form>
+     Inscrição Tech Future Summit <br><br>
+     
+     Nome completo:
+     <input type="nome" required placeholder="Seu Nome"> <br><br>
+     
+     CPF:
+      <input type="CPF" type="tel" maxlength="11" required placeholder="Seu CPF"> <br><br>
+     
+    <div class="form-group">
+        <label for="exampleInputEmail1"> Escreva seu endereço de email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" placeholder="Seu email">
+        <small id="email" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    </div>
+     
+    tipo de ingresso: <br>
+    
+    <div class="form-check">
+  <input class="form-check-input" type="radio" name="Tipo_ingresso" id="Presencial" value="opcao1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Presencial
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Tipo_ingresso" id="Online" value="opcao1" checked>
+  <label class="form-check-label" for="Ingresso">
+    Online
+  </label>
+</div>
+
+<fieldset style="max-width: 400px; border: 1px solid #ccc; padding: 10px;">
+      <legend>Termos e Condições (resumo)</legend>
+      <ul>
+        <li>A inscrição garante acesso exclusivo ao evento na modalidade escolhida.</li>
+        <li>É proibido compartilhar o link de acesso (modalidade online).</li>
+        <li>A programação pode sofrer alterações sem aviso prévio.</li>
+        <li>Presença poderá ser registrada para certificação.</li>
+        <li>O uso de imagem em fotos e gravações está autorizado.</li>
+        <li>Seus dados serão usados apenas para fins organizacionais.</li>
+      </ul>
+    </fieldset><br>
+
+   
+    <input type="checkbox" id="termos e condições" name="termos" value="aceito" required>
+    <label for="termos e condições">Li e aceito os termos e condições do evento.</label><br><br>
+
+     <button type="submit" class="btn btn-primary">Enviar</button>
+
+     
+    </form>
+    
+    
+    
